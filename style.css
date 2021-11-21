@@ -1,0 +1,15 @@
+* {
+    font-family: 'Mulish', sans-serif;
+    list-style: none;
+    text-decoration: none;    
+    text-align: center;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background: black;
+    color: white;
+    margin: -12px;
+}
