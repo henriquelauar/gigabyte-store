@@ -13,3 +13,25 @@ header {
     color: white;
     margin: -12px;
 }
+
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {  
+display: flex;
+position: absolute;
+left: 720px;
+top: 80px;
+}
+
+li {
+margin: 20px;
+font-weight: 800;
+}
+
+ul li a {
+color: white 
+}
