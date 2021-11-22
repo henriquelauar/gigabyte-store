@@ -11,13 +11,7 @@ header {
     flex-direction: row;
     background: black;
     color: white;
-    margin: -12px;
-}
-
-
-header img {
-    max-width: 100%;
-    height: auto;
+    margin: -8px;
 }
 
 ul {  
@@ -36,9 +30,56 @@ ul li a {
 color: white 
 }
 
+
 .produtos {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr; 
     grid-auto-rows: 500px;
-    margin-top: 300px;
+    margin-top: 200px;
+}
+
+.produto1 {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-self: center;
+    align-self: center;
+}
+
+.produto2 {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-self: center;
+    align-self: center;
+}
+
+.produto3 {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-self: center;
+    align-self: center;
+}
+
+.produto4 {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-self: center;
+    align-self: center;
+}
+
+.produto5 {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-self: center;
+    align-self: center;
+}
+
+.produto6 {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-self: center;
+    align-self: center;
+}
+
+h2 {
+    font-size: 12px;
 }
