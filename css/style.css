@@ -35,3 +35,10 @@ font-weight: 800;
 ul li a {
 color: white 
 }
+
+.produtos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 500px;
+    margin-top: 300px;
+}
