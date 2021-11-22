@@ -6,12 +6,16 @@
     box-sizing: border-box;
 }
 
+.container {
+    display: grid;
+    grid-template-rows: 30vh 90vh 100vh;
+    grid-auto-columns: 1fr;
+}
+
 header {
-    display: flex;
-    flex-direction: row;
+    height: 188px;
     background: black;
-    color: white;
-    margin: -8px;
+    grid-column: 1/6;
 }
 
 ul {  
@@ -31,55 +35,54 @@ color: white
 }
 
 
+main {
+    grid-column: 3/3;
+    height: 1700px;
+    margin-top: 100px;
+
+}
+
 .produtos {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
-    grid-auto-rows: 500px;
-    margin-top: 200px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    grid-column-gap: 600px;
+    grid-row-gap: 200px;
 }
 
 .produto1 {
-    display: grid;
-    grid-template-rows: 1fr;
-    justify-self: center;
-    align-self: center;
+    border-style: ridge;
+    border-width: thin;
+    border-color: #000000;
 }
 
 .produto2 {
-    display: grid;
-    grid-template-rows: 1fr;
-    justify-self: center;
-    align-self: center;
+
 }
 
 .produto3 {
-    display: grid;
-    grid-template-rows: 1fr;
-    justify-self: center;
-    align-self: center;
 }
 
 .produto4 {
-    display: grid;
-    grid-template-rows: 1fr;
-    justify-self: center;
-    align-self: center;
+
 }
 
 .produto5 {
-    display: grid;
-    grid-template-rows: 1fr;
-    justify-self: center;
-    align-self: center;
 }
 
 .produto6 {
-    display: grid;
-    grid-template-rows: 1fr;
-    justify-self: center;
-    align-self: center;
+
 }
 
 h2 {
     font-size: 12px;
+}
+
+footer {
+    background-color: blue;
+    height: 150px;
+    grid-column: 1/6;
+    grid-row: 10;
+
+
 }
