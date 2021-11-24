@@ -22,7 +22,7 @@ header {
 }
 
 .bar1 img {
-  margin: 30px;
+    margin-inline: 30px;
 }
 
 .departamentosbtn {
@@ -88,7 +88,7 @@ main {
   justify-content: center;
 }
 
-.produto1, .produto2, .produto3, .produto4, .produto5, .produto6 {
+.produto {
   border: 1px solid;
   border-color: #d8d8d8;
 }
