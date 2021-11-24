@@ -140,31 +140,28 @@ footer {
 }
 
 @media only screen and (max-width: 1280px) {
-  body {
-    width: 1250px;
-  }   
+
 }
 
-@media only screen and (max-width: 576px) {
-  body {
-    width: 400px;
-  }  
+@media only screen and (max-width: 375px) {
+  /* body, html {
+    width: 465px;
+  }   */
   header {
-    width: 575px;
+    width: 464px;
+  }
+  .produtos {
+    grid-column-gap: 115px;
   }
   .produto {
-    width: 250%;
-    margin-left: 35px;
+    width: 230%;
   }
-
-  .produto img {
-    width: 100%;
+  h2, h3, h4 {
+    font-size: small;
   }
-
-  .produtos button {
-    width: 90%;
+  footer {
+    width: 464px;
   }
-
 }
 
 @media only screen and (max-width: 768px) {
