@@ -253,4 +253,7 @@
   .tabela, .imagens {
     max-height: 40vh;
   }
+  .caracteristicasimg img {
+    width: 30vw;
+  }
 }
