@@ -96,14 +96,14 @@ ul li:hover {
 } */
 
 main {
-  max-height: 130vh;
-  max-width: 100vh;
+  max-height: max-content;
+  max-width: 100vw;
   margin-top: 130px;
   margin-bottom: 30px;
 }
 
 .produtos {
-  width: 100vw;
+  max-width: 100vw;
   display: grid;
   grid-template-columns: 230px 230px 230px;
   grid-column-gap: 200px;
@@ -159,8 +159,8 @@ h4 {
 footer {
   background-color: #ff914d;
   height: 10vh;
-  grid-column: 1/6;
-  grid-row: 10;
+  max-width: 100vw;
+  max-height: 100vh;
   margin: -8px;
 }
 
