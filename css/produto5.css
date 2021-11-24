@@ -141,3 +141,39 @@
       margin-left: 300px;
       text-align: left;
   }
+
+  @media only screen and (max-width: 375px) {
+    body {
+        margin: 0 auto;
+    }  
+    header {
+          width: 810px;
+      }
+      main {
+          width: 810px;
+      }
+      .tabela {
+        width: 400px;
+        margin-right: 10px;
+      }
+      .imagens {
+          width: 405px;
+          margin-left: 10px;
+      }
+      .imagens img {
+          width: 100%;
+      }
+      .caracteristicas {
+          width: 100%;
+          margin-left: 10px;
+      }
+       .caracteristicasimg img {
+          width: 405px;
+          margin-top: 50px;
+
+      }
+      .especificacoes ul li {
+          width: 405px;
+          margin-left: 0;
+      }
+  }
