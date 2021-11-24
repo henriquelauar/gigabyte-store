@@ -1,0 +1,44 @@
+* {
+    font-family: "Mulish", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  header {
+    height: 188px;
+    background: #ff914d;
+    margin: -8px;
+  }
+  
+  .bar1 {
+    background-color: #727279;
+    height: 50px;
+    margin-top: -4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bar1 img {
+      margin-inline: 30px;
+  }
+
+  main {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+p {
+    font-size: 18px;
+    text-align: left;
+    font-weight: 300;
+}
+
+.clientes {
+    height: 200px;
+    background-color: #727279;
+    display: flex;
+    justify-content: space-evenly;
+}
