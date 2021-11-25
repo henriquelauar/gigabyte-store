@@ -115,7 +115,7 @@ footer {
   margin-top: 200px;
 }
 
-.rodape, p {
+.rodape, .rodape p {
   background-color: #383838;
   margin: 0 auto;
   height: 10vh;
@@ -129,7 +129,7 @@ footer {
   margin-left: 20px;
   background: #383838;
 }
-.contatos, a {
+.contatos, .contatos a {
   background: #383838;
 }
 .contatos {
