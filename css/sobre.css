@@ -28,6 +28,7 @@
   main {
     margin-top: 100px;
     margin-left: 50px;
+    margin-right: 50px;
 }
 
 p {
@@ -35,10 +36,27 @@ p {
     text-align: left;
     font-weight: 300;
 }
+.referencias {
+  background-color: rgb(199, 197, 194);
 
+}
+ .imagensclientes {
+   display: flex;
+   justify-content: space-around;
+   align-content: center;
+ }
 .clientes {
     height: 200px;
-    background-color: #727279;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.statsinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #afafaf;
+  height: 250px;
 }
