@@ -119,18 +119,51 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .copyright {
   margin-left: 20px;
   background: #383838;
 }
-.contatosfooter,
-.contatosfooter a {
+.contatosfooter, .contatosfooter a, .contatosfooter ul, .contatosfooter i {
   background: #383838;
+  color: white;
 }
-.contatosfooter {
-  margin-right: 20px;
+
+.contatosfooter ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20vw;
+}
+
+
+.whatsapp i:hover {
+  color: #06d755;
+  transition-duration: 0.4s;
+}
+
+.facebook i:hover {
+  color: #087cea;
+  transition-duration: 0.4s;
+}
+
+.instagram i:hover {
+  background: linear-gradient(
+    #8a3ab9,
+    #e95950,
+    #bc2a8d,
+    #fccc63,
+    #fbad50,
+    #cd486b,
+    #4c68d7
+  );
+  transition-duration: 0.4s;
+}
+
+.email i:hover {
+  color: #4285f4;
+  transition-duration: 0.4s;
 }
 
 @media only screen and (max-width: 576px) {
@@ -138,11 +171,8 @@ footer {
     margin: 0;
     margin-top: 80px;
   }
-  ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+  .contatos ul {
+    font-size: 70%;
   }
 
   h1 {
@@ -157,10 +187,10 @@ footer {
     max-width: 100vw;
     max-height: 100vh;
   }
-  p {
-    font-size: 12px;
+  .copyright p {
+    font-size: 10px;
   }
-  .contatosfooter img {
-    max-width: 24vw;
+  .contatosfooter a{
+    font-size: 50%;
   }
 }

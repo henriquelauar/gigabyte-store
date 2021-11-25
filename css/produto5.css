@@ -45,23 +45,22 @@ main {
   height: 485px;
 }
 
-ul {
-  /* display: flex; */
+.tabela ul {
   justify-content: space-evenly;
   align-content: left;
 }
 
-i {
+.tabela i {
   color: #ff5800;
 }
 
-li {
+.tabela li {
   color: white;
   display: flex;
   justify-content: left;
 }
 
-li a {
+.tabela li, .tabela a {
   color: white;
   cursor: default;
 }
@@ -156,18 +155,52 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly; 
 }
 .copyright {
   margin-left: 20px;
   background: #383838;
 }
-.contatos,
-.contatos a {
+
+.contatos, .contatos a, .contatos ul, .contatos i {
   background: #383838;
+  color: white;
 }
-.contatos {
-  margin-right: 20px;
+
+.contatos ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20vw;
+}
+
+
+.whatsapp i:hover {
+  color: #06d755;
+  transition-duration: 0.4s;
+}
+
+.facebook i:hover {
+  color: #087cea;
+  transition-duration: 0.4s;
+}
+
+.instagram i:hover {
+  background: linear-gradient(
+    #8a3ab9,
+    #e95950,
+    #bc2a8d,
+    #fccc63,
+    #fbad50,
+    #cd486b,
+    #4c68d7
+  );
+  transition-duration: 0.4s;
+}
+
+.email i:hover {
+  color: #4285f4;
+  transition-duration: 0.4s;
 }
 
 @media only screen and (max-width: 1366px) {
@@ -287,11 +320,11 @@ footer {
     max-width: 100vw;
     max-height: 100vh;
   }
-  p {
-    font-size: 12px;
+  .copyright p {
+    font-size: 10px;
   }
-  .contatos img {
-    max-width: 24vw;
+  .contatos a{
+    font-size: 50%;
   }
 }
 
