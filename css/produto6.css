@@ -142,6 +142,34 @@
       text-align: left;
   }
 
+
+  footer {
+    max-width: 100vw;
+    margin: -8px;
+    margin-top: 200px;
+  }
+  
+  .rodape, .rodape p {
+    background-color: #383838;
+    margin: 0 auto;
+    height: 10vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .copyright {
+    margin-left: 20px;
+    background: #383838;
+  }
+  .contatos, .contatos a {
+    background: #383838;
+  }
+  .contatos {
+    margin-right: 20px;
+  }
+  
   @media only screen and (max-width: 1366px) {
     .imagens {
       margin-left: 0;
@@ -246,6 +274,16 @@
   li {
     font-size: 12px;
     margin-top: 1px;
+  }
+  footer {
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+  p {
+    font-size: 12px;
+  }
+  .contatos img {
+      max-width: 24vw;
   }
 } 
 
