@@ -41,8 +41,8 @@ header {
 
 .bar2 a {
   background: #727272;
-  color: black;
-  font-weight: 700;
+  color: rgb(252, 252, 252);
+  font-weight: 500;
   border: 5px solid #727272;
   border-radius: 5px;
 }
@@ -140,7 +140,6 @@ footer {
   justify-content: space-between;
   width: 20vw;
 }
-
 
 .whatsapp i:hover {
   color: #06d755;
