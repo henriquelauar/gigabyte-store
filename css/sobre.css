@@ -1,55 +1,54 @@
 * {
-    font-family: "Mulish", sans-serif;
-    list-style: none;
-    text-decoration: none;
-    text-align: center;
-    box-sizing: border-box;
-  }
-  
-  header {
-    height: 188px;
-    background: #ff914d;
-    margin: -8px;
-  }
-  
-  .bar1 {
-    background-color: #727279;
-    height: 50px;
-    margin-top: -4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .bar1 img {
-      margin-inline: 30px;
-  }
+  font-family: "Mulish", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  box-sizing: border-box;
+}
 
-  main {
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
+header {
+  height: 188px;
+  background: #ff914d;
+  margin: -8px;
+}
+
+.bar1 {
+  background-color: #727279;
+  height: 50px;
+  margin-top: -4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar1 img {
+  margin-inline: 30px;
+}
+
+main {
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 p {
-    font-size: 18px;
-    text-align: left;
-    font-weight: 300;
+  font-size: 18px;
+  text-align: left;
+  font-weight: 300;
 }
 .referencias {
   background-color: rgb(199, 197, 194);
-
 }
- .imagensclientes {
-   display: flex;
-   justify-content: space-around;
-   align-content: center;
- }
+.imagensclientes {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
 .clientes {
-    height: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
 }
 
 .statsinfo {
@@ -66,35 +65,42 @@ h1 {
 }
 
 ul {
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
- h3 {
-   font-size: 20px;
-   font-weight: 600;
- }
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
 
-.whatsapp i:hover
- {
+.whatsapp i:hover {
   color: #06d755;
-  transition-duration: 0.4s ;
+  transition-duration: 0.4s;
 }
 
 .facebook i:hover {
-  color: #087CEA;
-  transition-duration: 0.4s ;
+  color: #087cea;
+  transition-duration: 0.4s;
 }
 
 .instagram i:hover {
-  background: linear-gradient(#8a3ab9, #e95950, #bc2a8d, #fccc63, #fbad50, #cd486b, #4c68d7 );
-  transition-duration: 0.4s ;
+  background: linear-gradient(
+    #8a3ab9,
+    #e95950,
+    #bc2a8d,
+    #fccc63,
+    #fbad50,
+    #cd486b,
+    #4c68d7
+  );
+  transition-duration: 0.4s;
 }
 
 .email i:hover {
-  color: #4285F4;
-  transition-duration: 0.4s ;
+  color: #4285f4;
+  transition-duration: 0.4s;
 }
 
 .contatos a {
@@ -107,7 +113,8 @@ footer {
   margin-top: 200px;
 }
 
-.rodape, .rodape p {
+.rodape,
+.rodape p {
   background-color: #383838;
   margin: 0 auto;
   height: 10vh;
@@ -121,7 +128,8 @@ footer {
   margin-left: 20px;
   background: #383838;
 }
-.contatosfooter, .contatosfooter a {
+.contatosfooter,
+.contatosfooter a {
   background: #383838;
 }
 .contatosfooter {
@@ -133,12 +141,12 @@ footer {
     margin: 0;
     margin-top: 80px;
   }
-ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
 
   h1 {
     font-size: 16px;
@@ -147,11 +155,11 @@ ul {
   h2 {
     font-size: 13px;
   }
-  
+
   h3 {
     font-size: 12px;
   }
-  
+
   footer {
     max-width: 100vw;
     max-height: 100vh;
@@ -160,6 +168,6 @@ ul {
     font-size: 12px;
   }
   .contatosfooter img {
-      max-width: 24vw;
+    max-width: 24vw;
   }
 }
