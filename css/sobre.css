@@ -61,6 +61,46 @@ p {
   height: 250px;
 }
 
+h1 {
+  display: flex;
+}
+
+ul {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+ h3 {
+   font-size: 20px;
+   font-weight: 600;
+ }
+
+.whatsapp i:hover
+ {
+  color: #06d755;
+  transition-duration: 0.4s ;
+}
+
+.facebook i:hover {
+  color: #087CEA;
+  transition-duration: 0.4s ;
+}
+
+.instagram i:hover {
+  background: linear-gradient(#8a3ab9, #e95950, #bc2a8d, #fccc63, #fbad50, #cd486b, #4c68d7 );
+  transition-duration: 0.4s ;
+}
+
+.email i:hover {
+  color: #4285F4;
+  transition-duration: 0.4s ;
+}
+
+.contatos a {
+  color: #1b1414;
+}
+
 footer {
   max-width: 100vw;
   margin: -8px;
@@ -81,9 +121,41 @@ footer {
   margin-left: 20px;
   background: #383838;
 }
-.contatos, .contatos a {
+.contatosfooter, .contatosfooter a {
   background: #383838;
 }
-.contatos {
+.contatosfooter {
   margin-right: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+  main {
+    margin: 0;
+    margin-top: 80px;
+  }
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+  h1 {
+    font-size: 16px;
+  }
+  
+  h3 {
+    font-size: 12px;
+  }
+  
+  footer {
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+  p {
+    font-size: 12px;
+  }
+  .contatosfooter img {
+      max-width: 24vw;
+  }
 }
