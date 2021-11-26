@@ -60,7 +60,7 @@ main {
   justify-content: left;
 }
 
-.tabela li .tabela a {
+.tabela li, .tabela a {
   color: white;
   cursor: default;
 }
