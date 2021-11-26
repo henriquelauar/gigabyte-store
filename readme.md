@@ -25,24 +25,39 @@ Linguagens
 O projeto está finalizado e conta com as seguintes funcionalidades:
  - Página inicial com 6 variedades de produtos
 <img src="assets/readme/home.png"/>
+
+-------------------
  - Página exclusiva para cada um dos produtos com preço, opções de compra, detalhes do produto e especificações técnicas
 <img src="assets/readme/produtos.png"/>
 <img src="assets/readme/produtos2.png"/>
+
+-------------------
  - Menu com botões de página inicial, página de login e registro e página institucional
 <img src="assets/readme/header.png"/>
+
+-------------------
  - Página exclusiva para se fazer registro e o login no site
 <img src="assets/readme/login.png"/>
+
+-------------------
  - Página institucional com informações sobre a empresa
 <img src="assets/readme/institucional.png"/>
+
+-------------------
  - Páginas de filtro por departamento de produto
 <img src="assets/readme/departamentos.png"/>
+
+-------------------
  - Rodapé com copyright e ícones linkados às redes sociais e que acendem a cor da logo ao passar com o mouse por cima
 <img src="assets/readme/footer.png"/>
- - Responsividade para todos os dispositivos
-<img src="assets/readme/responsividade.jpg"/>
+
 -------------------
+ Responsividade para todos os dispositivos
+<img src="assets/readme/responsividade.jpg"/>
+
 ### **Site desenvolvido por:**
 - Henrique Sousa Lauar
 -------------------
+
 Site hospedado no seguinte link
 https://henriquelauar.github.io/Gigabyte-Store/
