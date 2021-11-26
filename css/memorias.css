@@ -129,14 +129,17 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly; 
+  justify-content: space-evenly;
 }
 .copyright {
   margin-left: 20px;
   background: #383838;
 }
 
-.contatos, .contatos a, .contatos ul, .contatos i {
+.contatos,
+.contatos a,
+.contatos ul,
+.contatos i {
   background: #383838;
   color: white;
 }
@@ -147,7 +150,6 @@ footer {
   justify-content: space-between;
   width: 20vw;
 }
-
 
 .whatsapp i:hover {
   color: #06d755;
