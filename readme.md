@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h1 align= center>Projeto Gigabyte Store</h1>
 
 <h4 align= center>Projeto com o intuito de aprender os fundamentos e as funcionalidades de HTML e CSS</h4>
